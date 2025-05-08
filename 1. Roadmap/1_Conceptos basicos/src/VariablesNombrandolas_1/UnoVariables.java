@@ -4,6 +4,7 @@ public class UnoVariables {
         
     public static void main(String[] args) {
         // Variables de instancia
+        System.out.println("\tVariables de instanca:");
         VariablesInstancia bici1 = new VariablesInstancia(10);
         VariablesInstancia bici2 = new VariablesInstancia(20);
         
@@ -14,12 +15,20 @@ public class UnoVariables {
         // A esto se le llama variable de instancia, porque sus valores son unicos en cada instancia
         
         // Variables de clase
+        System.out.println("\n\tVariables de clase");
         VariablesClase.showNumOfGears(); // No es necesaio crear una instancia, ya que pertenece a la clase
         
         // Variable local
+        System.out.println("\n\tVariable local");
         VariableLocal bici3 = new VariableLocal();
         
         bici3.speed();
         //System.out.println(increase); Error: no es visible aqui
+        
+        // Variable parametro
+        System.out.println("\n\tVariable de parametro");
+        VariableParametro vp =  new VariableParametro();
+        
+        vp.speed(10);
     }
 }
