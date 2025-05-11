@@ -1,4 +1,4 @@
-package VariablesNombrandolas_1;
+package NombramientoVariables_1;
 
 public class UnoVariables {
         

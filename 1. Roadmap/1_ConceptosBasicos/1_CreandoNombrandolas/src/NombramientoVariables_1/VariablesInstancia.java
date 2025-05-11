@@ -1,4 +1,4 @@
-package VariablesNombrandolas_1;
+package NombramientoVariables_1;
 /*Los campos no estaticos tambie se conocen como variables de instancia porque sus valores son unicos para cada instancia de una clase*/
 // Bicicleta
 public class VariablesInstancia {

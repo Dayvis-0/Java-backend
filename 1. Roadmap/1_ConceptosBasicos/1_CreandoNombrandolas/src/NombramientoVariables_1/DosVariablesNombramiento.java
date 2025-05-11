@@ -1,4 +1,4 @@
-package VariablesNombrandolas_1;
+package NombramientoVariables_1;
 
 //Las Variables son sensibles a los casos
 public class DosVariablesNombramiento {
