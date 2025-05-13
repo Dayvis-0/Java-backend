@@ -11,9 +11,17 @@ public class LiteralesCaracterString {
         String hello = "Hola mundo";
         String withUnico = "S\u00ED Se\u00F1or";
         
+        // null literal
+        String name = null;
+        
+        // Literal de clase
+        Class<?> tipo = String.class;
+        
         System.out.println("Char normal: " + letter);
         System.out.println("Char unicode: " + unicode); 
         System.out.println("String: " + hello); 
         System.out.println("String unicode: " + withUnico); 
+        System.out.println("null literal: " + name);
+        System.out.println("Clase literal: " + tipo);
     }
 }
