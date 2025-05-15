@@ -1,4 +1,7 @@
 package CreaIniciAcceMatri_3;
+
+import java.util.Arrays;
+
 /*El sytem la clase tiene un arraycopy() metodo que puede usar para copiar datos de manera eficiente de una matriz a otra*/
 public class CopiarArray {
     
@@ -22,5 +25,8 @@ public class CopiarArray {
         for (String coffe : copyTo) {
             System.out.println("\t" + coffe);
         }
+        
+        
+        System.out.println("Array: " + Arrays.toString(copyTo));
     }
 }
