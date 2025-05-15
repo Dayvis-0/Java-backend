@@ -26,7 +26,6 @@ public class CopiarArray {
             System.out.println("\t" + coffe);
         }
         
-        
         System.out.println("Array: " + Arrays.toString(copyTo));
     }
 }
