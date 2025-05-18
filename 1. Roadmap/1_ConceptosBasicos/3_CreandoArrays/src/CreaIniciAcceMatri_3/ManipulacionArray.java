@@ -71,5 +71,6 @@ public class ManipulacionArray {
         Arrays.parallelSort(nume2);
         
         System.out.println(Arrays.toString(nume2));
+        System.out.println("Siguiente");
     }
 }
