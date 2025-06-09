@@ -18,3 +18,5 @@ class ComparacionDeTipos {
 class Parent {}
 class Child extends Parent implements MyInterface {}
 interface MyInterface {}
+
+// Cuando se usa el instanceof operador, tenga en cuenta que null no es una instancia de nada
