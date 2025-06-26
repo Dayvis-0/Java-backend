@@ -5,6 +5,6 @@ public class Variables {
     public static void main(String[] args) {
         /*Las variables generalmente se usan para almacenar informacion que su programa en Java necesita para hacer su trabajo*/
         int number = 18;
-        number = nu
+        number = number + 20;
     }
 }
