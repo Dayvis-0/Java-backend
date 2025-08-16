@@ -1,6 +1,6 @@
 package TiposDeVariables_2;
-/*Un campo estatico es una variable que pertenece a una clase. Un campo estatico tiene el mismo valor para todos los objetos
-que accede a el. Los campos estaticos tambien se denominan variables de clase.*/
+/*Un campo estatico es una variable que pertenece a una clase. Un campo estatico tiene el mismo valor para todos 
+los objetos que accede a el. Los campos estaticos tambien se denominan variables de clase.*/
 public class CampoEstatico {
     // Campo estaticos
     static int totalObjectos = 0;

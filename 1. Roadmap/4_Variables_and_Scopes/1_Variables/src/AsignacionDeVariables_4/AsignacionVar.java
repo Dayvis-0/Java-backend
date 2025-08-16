@@ -5,7 +5,6 @@ public class AsignacionVar {
     public static void main(String[] args) {
         Byte myByte = 127;
         float myFloat = 199.9f;
-        
-        
+        String myString = "This is a text";
     }
 }
